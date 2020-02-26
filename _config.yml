@@ -7,12 +7,12 @@
 
 # Site settings
 title:       Type
-email:       ''
+email:       '217.Songs.SH@gmail.com'
 description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
 twitter:     ''
-github:      ''
+github:      'https://github.com/SHSongs'
 instagram:   ''
 facebook:    ''
 
