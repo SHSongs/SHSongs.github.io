@@ -5,7 +5,7 @@ description:        "."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/light-bulb-logo.png'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/desktop-white-bg.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://SHSongs.github.io
@@ -37,14 +37,14 @@ disqus_shortname:   https-SHSongs-github-io
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              217.Songs.SH@gmail.com
 #twitter:            username
 #facebook:           username
 github-url:         "SHSongs"    # https://github.com/ 뒤 주소만 입력
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          "2z__im"   # https://www.instagram.com/
+#instagram:          ""   # https://www.instagram.com/
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
