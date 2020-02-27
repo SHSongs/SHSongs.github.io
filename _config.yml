@@ -1,14 +1,14 @@
 # Site
-title:              2Z
-bio:                'My record. Study-ing'
+title:              Songs
+bio:                '.'
 description:        "."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/light-bulb-logo.png'
-background:         'assets/img/desktop-white-bg.jpg'
+background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://png93.github.io
+url:                https://SHSongs.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   https-png93-github-io
+disqus_shortname:   https-SHSongs-github-io
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -40,7 +40,7 @@ disqus_shortname:   https-png93-github-io
 #email:
 #twitter:            username
 #facebook:           username
-github-url:         "png93"    # https://github.com/ 뒤 주소만 입력
+github-url:         "SHSongs"    # https://github.com/ 뒤 주소만 입력
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
