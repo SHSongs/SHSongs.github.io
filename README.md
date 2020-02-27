@@ -1,30 +1,12 @@
-# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
-  
-## `Sorry guys but there will be no update until I buy a new laptop.`
-    
-######(If you like this theme or using it, please give a :star: for motivation.)
+# [Moon Jekyll Theme](https://taylantatli.github.io/Moon/) 으로 만든 gihub 블로그
 
-**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Contents
+* 알고리즘 공부와 문제 풀이 <br/> 
+   - 알고리즘 문제 사이트: <a href = "https://www.acmicpc.net/">백준 온라인 저지</a> 
+   - 알고리즘 도서: <a href="http://www.hanbit.co.kr/store/books/look.php?p_code=B3450156021">뇌를 자극하는 알고리즘</a>
 
-## Preview
+* 잘못된 점에 대한 지적(댓글)은 언제나 환영입니다.  
+제발 그냥 넘어가지 말아주세오  
+／(￣▽￣)／
 
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
-
-See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.

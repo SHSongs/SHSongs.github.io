@@ -1,37 +1,14 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About Here
+tags: [about]
+date: 2018-09-24
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center>배운 것을 글로 정리하고, 성장하는 공간</center>
 
 ## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
-
-## Preview
-
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+* 알고리즘 공부와 문제 풀이 <br/>
+(알고리즘 문제 사이트: <a href = "https://www.acmicpc.net/">백준 온라인 저지</a>, 
+ 알고리즘 도서: <a href="http://www.hanbit.co.kr/store/books/look.php?p_code=B3450156021">뇌를 자극하는 알고리즘</a>)

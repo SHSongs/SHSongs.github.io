@@ -45,7 +45,7 @@ h3.title a {
 		padding-left: 0;
 	}
 	li {
-		padding: 10px 18px;
+		padding: 6px 10px;  // 변경: 위/아래 6px, 좌/우 10px
 		margin: 0 10px;
 		text-decoration: none;
 		background: $white;
@@ -61,7 +61,7 @@ h3.title a {
 		}
 		p {
 			font-weight: lighter;
-			@include font-rem(16);
+			@include font-rem(12);  //폰트사이즈 변경
 		}
 	}
 }

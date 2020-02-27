@@ -107,7 +107,7 @@ hr {
 // images and figures
 img {
     display: block;
-	max-width: 100%;
+	max-width: 80%;
     width: auto;
     height: auto;
     vertical-align: middle;
@@ -176,14 +176,15 @@ kbd {
 	display: inline-block;
 	margin: 0 1px;
 	padding: 1px 8px;
-	@include font-rem(10);
+	@include font-rem(13);
 	font-weight: bold;
 	color: $color_fuscous_gray;
 	vertical-align: middle;
-	background-color: $color_alabaster;
+	//background-color: $color_alabaster;
+    background-color: #ffc107b3;
 	border: solid 1px $color_celeste;
 	border-bottom-color: $color_pink_swan;
-	border-radius: 3px;
+	border-radius: 6px;
 	box-shadow: inset 0 -1px 0 $color_pink_swan;
 }
 
@@ -205,4 +206,21 @@ kbd {
     text-align: center;
     font-weight: 300;
     margin-bottom: 10px;
+}
+
+/*********글씨 강조 관련**********/
+// 노란 형광펜
+hly {
+    //display: inline-block;
+    background-color: #F4FA58;
+}
+
+// 빨간 형광펜
+hlr {
+    background-color: #F79F81;
+}
+
+// 파란 형광펜
+hlb {
+    background-color: #819FF7;
 }
