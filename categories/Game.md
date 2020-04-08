@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Test하기
+title: Game
 
 ---
