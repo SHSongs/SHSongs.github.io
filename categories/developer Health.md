@@ -1,5 +1,5 @@
 ---
-layout: developer Health
-title: Game
+layout: category
+title: developer Health
 
 ---
