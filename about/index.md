@@ -6,7 +6,10 @@ date: 2020-02-28
 comments: false
 ---
     
-<center>내 공간</center>
+<center>매주 목요일 밤 8시 글 게시</center>
 
 ## Features
-* 내 땅임 <br/>                                                 
+* Math <br/>                                                 
+* CPP <br/>                                                 
+* AI (artificial intelligence) <br/>
+* developer Health <br/>                                               
