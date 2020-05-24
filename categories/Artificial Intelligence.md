@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Cpp
+title: Artificial Intelligence
 
 ---
