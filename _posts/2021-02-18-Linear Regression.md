@@ -58,8 +58,10 @@ b를 5로 높여보자 그리고 예측값과 원래값의 거리의 합을 측�
 <img src="/Images/AI/LRV/01_21.png" height="400">  
 절대값(예측값 - 원래값) = 25  
 
- 
+<img src="/Images/AI/LRV/01_1.gif" height="400">  
+
 이런식으로 bias를 -10 부터 10까지 해보면   
+
 <img src="/Images/AI/LRV/02_0.png" height="400">  
 이런 그래프가 나오게 된다.  
 
