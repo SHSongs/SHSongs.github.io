@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linear Regression 구현"
-date: 2021-02-18
+date: 2021-02-25
 excerpt: "Linear Regression 구현"
 tag:
 - Ai
@@ -68,7 +68,7 @@ def 풀기():
 
 ```
 행렬연산으로  
-hypothesis = [0, 0, 0, 0, 0]  
+hypothesis의 형태는 [?, ?, ?, ?, ?]  
 이 된다.  
 여기서 왜 h를 w와 b별로 더하고 빼는지 의문이 들 수 있는데 그래프를 봐보자  
 
