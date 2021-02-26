@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Others
+title: others
 
 ---
