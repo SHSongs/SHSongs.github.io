@@ -20,7 +20,7 @@ comments: true
 도커로 파이썬하고 bash를 써보자  
 
 google에 docker python을 검색하면  
-https://hub.docker.com/_/python  
+[https://hub.docker.com/_/python](https://hub.docker.com/_/python)  
 이 사이트가 상단에 뜨는것을 볼 수 있다.  
 
 
@@ -69,7 +69,7 @@ python을 쓰면 python이 실행된다.
 ```
 python
 ```
-<img src="/Images/Other/Docker/07.png" height="400">   1
+<img src="/Images/Other/Docker/07.png" height="400">   
 
 ```
 exit() 으로 Container 내부의 python을 종료시킬 수 있다.  
