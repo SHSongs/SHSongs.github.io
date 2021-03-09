@@ -95,12 +95,3 @@ net(torch.randn(1 ,3, 32, 32))
 x = x.reshape(x.shape[0], -1)
 ```
 아니면 배치데이터의 크기를 이용해 변환시킬 수도 있다.
-
-
-<script src="https://utteranc.es/client.js"
-        repo="SHSongs/Blog-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

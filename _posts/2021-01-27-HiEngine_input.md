@@ -86,15 +86,3 @@ public:
 	const static std::map<int, std::string> Action_map;
 };
 ```
-
-
-
-
-
-<script src="https://utteranc.es/client.js"
-        repo="SHSongs/Blog-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

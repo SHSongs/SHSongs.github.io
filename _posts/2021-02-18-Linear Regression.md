@@ -91,12 +91,3 @@ loss = 절대값(예측값 - 원래값)
 ### loss = (예측값 - 원래값)^2  
 을 이용해 최적값과 멀때는 더 큰 loss를 반환하게 한다. 
 
-
-
-<script src="https://utteranc.es/client.js"
-        repo="SHSongs/Blog-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

@@ -168,14 +168,3 @@ plt.plot(x_predict, y_predict, 'b', label='predict')
 plt.legend(['origin', 'predict'])
 plt.show()
 ```
-
-
-
-
-<script src="https://utteranc.es/client.js"
-        repo="SHSongs/Blog-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

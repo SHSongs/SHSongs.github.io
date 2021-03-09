@@ -88,13 +88,3 @@ docker ps -a 로 모든 컨테이너를 확인 할 수 있다.
 ## 다음글
 컨테이너에서 작업한 내용물을 OS에서 보는 방법 (마운트)  
 포트 맵핑 
-
-
-
-<script src="https://utteranc.es/client.js"
-        repo="SHSongs/Blog-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
