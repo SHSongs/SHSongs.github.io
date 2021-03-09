@@ -13,3 +13,12 @@ comments: true
 
 # 상대 좌표를 월드 좌표로
 
+
+
+<script src="https://utteranc.es/client.js"
+        repo="SHSongs/Blog-comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
