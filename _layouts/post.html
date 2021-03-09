@@ -37,15 +37,15 @@ layout: compress
                 <div class="entry-meta">
                 {% include meta.html %}
                 </div>
+                <script src="https://utteranc.es/client.js"
+                repo="SHSongs/Blog-comments"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+                </script>
             </div>
         </div>
-        <script src="https://utteranc.es/client.js"
-        repo="SHSongs/Blog-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-        </script>
         {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
     </header>
     {% include scripts.html %}
