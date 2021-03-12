@@ -32,10 +32,11 @@ sass:
 # if you don't have any of social below, comment the line.
 #google:
   #plus:            #username
-  #analytics:
+  analytics: 'G-XJXDTWH59M'
   #verify:
   #ad-client:
   #ad-slot:
+g-analytics: 'G-XJXDTWH59M'
 #bing-verify:
 email:              simpledeveloper.songs@gmail.com
 #twitter:            username
