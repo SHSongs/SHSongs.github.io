@@ -19,7 +19,7 @@ comments: true
 
 ### 선행지식 : 기울기 (수치미분), numpy 기초
 
-저번글에서는 선형회귀를 시각화해보았다면 이번글은 python을 이용해 선형회귀를 구현해본다.  
+저번 글에서는 선형회귀를 시각화해보았다면 이번 글은 python을 이용해 선형회귀를 구현해본다.  
 
 
 
@@ -34,7 +34,7 @@ weight = 0.0
 bias = 0.0
 ```
 
-그리고 학습속도를 조절과 몇번 학습할지도 있어야한다.
+그리고 학습속도를 조절과 몇 번 학습할지도 있어야 한다.
 ```python
 learning_rate = 0.01 # 학습비율
 epochs = 1000 # 몇번 학습할것인지
@@ -44,7 +44,7 @@ epochs = 1000 이라고 했는데 같은 데이터를 1000번 학습한다는 �
 
 
 
-이제 학습을 위한 준비는 끝났다. epochs 만큼 반복문을 돌려서 학습을 하면 된다.
+이제 학습을 위한 준비는 끝났다. epochs 만큼 반복문을 돌려서 학습하면 된다.
 
 ```python
 for i in range(epochs):
@@ -53,7 +53,7 @@ for i in range(epochs):
     배우기()
 ```
 
-일단 배우기 전에 자신이 알고있는 지식으로 문제를 풀어 봐야한다. 
+일단 배우기 전에 자신이 알고 있는 지식으로 문제를 풀어 봐야 한다. 
 ```python
 def 풀기():
     h = 0.001
@@ -70,7 +70,7 @@ def 풀기():
 행렬연산으로  
 hypothesis의 형태는 [?, ?, ?, ?, ?]  
 이 된다.  
-여기서 왜 h를 w와 b별로 더하고 빼는지 의문이 들 수 있는데 그래프를 봐보자  
+여기서 왜 h를 w와 b 별로 더하고 빼는지 의문이 들 수 있는데 그래프를 봐보자  
 
 <img src="/Images/AI/LRV/06_0.png" height="400">  
 
@@ -88,10 +88,10 @@ def 확인하기():
     cost_w_down = np.sum((hypothesis_w_down - y_train) ** 2) / n_data
     cost_b_down = np.sum((hypothesis_b_down - y_train) ** 2) / n_data
 ```
-cost = 각 데이터별 거리의 합 / 데이터의 개수  
+cost = 데이터별 거리의 합 / 데이터의 개수  
 마찬가지로 w와 b 따로 cost(loss)를 구해준다.
 
-그리고 배워야한다. 
+그리고 배워야 한다. 
 ```python
 def 배우기():
     numerical_grad_w = (cost_w_up - cost_w_down) * 2 / h
@@ -101,11 +101,11 @@ def 배우기():
     b -= learning_rate * numerical_grad_b
 
 ```
-w와 b 별로 기울기를 후한 후 w와 b에 learning_rate만큼 적용시켜준다.
+w와 b 별로 기울기를 후한 후 w와 b에 learning_rate만큼 적해준다.  
 
 
 ### 문제점
-이런식으로 파라미터(여기서는 w,b)마다 수치미분으로 loss를 구해주면 느리기때문에 다음글에서는 오차 역전파법을 통해 고속으로 구해보자  
+이런 식으로 파라미터(여기서는 w, b)마다 수치미분으로 loss를 구해주면 느리기 때문에 다음 글에서는 오차 역 전파법을 통해 고속으로 구해보자  
 
 
 

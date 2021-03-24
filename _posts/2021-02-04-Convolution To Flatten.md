@@ -12,9 +12,9 @@ comments: true
 
 
 CNN model 을 만들때 Conv layer 를 Flatten layer 로 통과시키기 위해  
-행렬 변환을 해야된다 (1차원으로)  
+행렬 변환을 해야 된다 (1차원으로)  
 
-이때 어떻게 변환해야 될지 헷갈릴 수 있다.  
+이때 어떻게 변환해야 할지 헷갈릴 수 있다.  
 [Pytorch KR Classifier tutorial](https://tutorials.pytorch.kr/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py)
 
 ```python
@@ -55,7 +55,7 @@ x = x.view(-1, 16 * 5 * 5)
 [1, 3, 32, 32] 의 이미지를 Model 에 넣으면  
 마지막 Conv 에서는 [1, 16, 5, 5]  
 이를 x.view(-1, 16 * 5 * 5) 후에는  
-[1, 400] 이런 형태가 된다  
+[1, 400] 이런 형태가 된다.  
   
 
   
@@ -87,7 +87,7 @@ net(torch.randn(1 ,3, 32, 32))
 # torch.Size([1, 400])
 ```
 
-[1, 16, 5, 5] 의 2, 3, 4의 값을 곱한 값으로 변환 시키면 된다.  
+[1, 16, 5, 5] 의 2, 3, 4의 값을 곱한 값으로 변환시키면 된다.  
 (첫번째 값은 배치 데이터)  
 
 
