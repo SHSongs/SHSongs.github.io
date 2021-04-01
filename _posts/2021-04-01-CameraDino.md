@@ -17,7 +17,7 @@ comments: true
 
 <figure class="half">
     <a href="/Images/AI/Dino/01_Opticalflow.jpg"><img src="/Images/AI/D/Images/AI/Dino/01_Opticalflow.jpg"></a>
-    <a href="/Images/AI/D/Images/AI/Dino/02_Opticalflowjpg.jpg"><img src="/Images/AI/D/Images/AI/Dino/02_Opticalflowjpg.jpg"></a>
+    <a href="/Images/AI/Dino/02_Opticalflowjpg.jpg"><img src="/Images/AI/Dino/02_Opticalflowjpg.jpg"></a>
     <figcaption>출처 https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html</figcaption>
 </figure>
 
