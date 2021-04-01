@@ -55,7 +55,7 @@ prevMv = prevPt[status == 1]
 nextMv = nextPt[status == 1]  
 ```
 
-prevMv과 nextMv 의 차를 구하면 운동량을 구할 수 있습니다.  
+prevMv과 nextMv 의 차를 구하면 운동량을 구할 수 있다.  
 ```py
 vec = prevMv - nextMv
 ```
@@ -70,7 +70,7 @@ vec = prevMv - nextMv
 
 vec 을 0차원을 기준으로 평균을 내  
 
-vec의 평균 운동량을 구해줍니다.  
+vec의 평균 운동량을 구해준다.  
 
 ```py
 vec = np.mean(vec, axis=0)
