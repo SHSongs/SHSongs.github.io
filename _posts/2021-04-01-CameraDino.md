@@ -65,7 +65,7 @@ vec = prevMv - nextMv
     <a href="/Images/AI/Dino/03_01Prev.jpg"><img src="/Images/AI/Dino/03_01Prev.jpg"></a>
     <a href="/Images/AI/Dino/03_02Next.jpg"><img src="/Images/AI/Dino/03_02Next.jpg"></a>
     <a href="/Images/AI/Dino/03_03Vec.jpg"><img src="/Images/AI/Dino/03_03Vec.jpg"></a>
-    <figcaption>출처 https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html</figcaption>
+    <figcaption>Prev, Next, Vec 의 형태</figcaption>
 </figure>
 
 vec 을 0차원을 기준으로 평균을 내  
