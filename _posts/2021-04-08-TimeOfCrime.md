@@ -29,11 +29,10 @@ is_subtotal = df['죄종별(2)'] == '소계'
 ![](/Images/AI/TimeOfCrime/02_01.jpg)  
 
 ----------------
-이걸
+
 ```py
 sub_total = df[is_subtotal]
 ```
-하면
 ![](/Images/AI/TimeOfCrime/03_01.jpg)  
 
 sub_total <- 이거 이름 바꾸기 
@@ -63,7 +62,7 @@ plt.xlabel('Time of crime')
 plt.ylabel('Number of crimes')
 plt.show()
 ```
-![](i/Images/AI/TimeOfCrime/04_02.png)    
+![](/Images/AI/TimeOfCrime/04_02.png)    
 
 -----------------
 
