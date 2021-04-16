@@ -31,18 +31,19 @@ FPS(Frame Per Second)는 while 루프를 도는 시간을 측정한 후
 ```
 을 하여 FPS를 구했다.  
 
+----------
 ------
 - 평소  20FPS  
 - Spacebar 누르는 코드 작동시 10FPS  
   
 ![](/Images/AI/DinoTime/01_Original.png)  
 
-#
+------
 [PyGame Dino](https://github.com/shivamshekhar/Chrome-T-Rex-Rush) OpenSource는 약 50FPS 정도가 나왔다.  
 [PyGame Dino](https://github.com/shivamshekhar/Chrome-T-Rex-Rush) + 점프감지코드는 약 16FPS 정도가 나왔다.   
 ![](/Images/AI/DinoTime/02_PyGame.png)  
 
-
+------
 --------
 간단하게 FPS 측정을 해 보았고  
 optical flow 코드는 그냥 가져다 썼는데 더 공부한 후 지금 상황에 맞는 코드를 작성해야 한다.
