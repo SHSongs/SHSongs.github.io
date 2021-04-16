@@ -14,6 +14,8 @@ comments: true
 
 ### Play Camera Dino with Raspberry Pi
 
+[Github Source](https://github.com/SHSongs/CameraDino)  
+[Camera Dino](https://shsongs.github.io/CameraDino/)  
 
 라즈베리파이에서의 디노 시간 측정  
 

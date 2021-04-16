@@ -12,6 +12,8 @@ comments: true
 ---
 
 [Github Source](https://github.com/SHSongs/CameraDino)  
+[Play Camera Dino with Raspberry Pi](https://shsongs.github.io/Play-Camera-Dino-with-Raspberry-Pi/)  
+
 
 ## Optical Flow
 
